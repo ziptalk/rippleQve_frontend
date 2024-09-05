@@ -174,7 +174,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     getData();
-  }, [refreshTrigger]);
+  }, [refreshTrigger, address]);
 
   const getData = async () => {
     try {
