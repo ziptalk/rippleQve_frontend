@@ -15,7 +15,6 @@ import ConnectWallet from '../../wallet/ConnectWallet';
 import axios from 'axios';
 import { formatPriceValue } from '../../common/utils/formatPriceValue';
 import BotLogo from '../../common/components/BotLogo';
-import { dashboardBackIMG } from '../assets/0_index';
 import useTablet from '../../common/hooks/useTablet';
 import TableTablet from '../components/TableTablet';
 import { formatUnits } from '../../common/utils/formatUnits';
@@ -130,7 +129,6 @@ const ShowDashboardData = ({ data }: { data: IDashboard }) => {
 const ISnotConnectWallet = () => {
   return (
     <StNotConnectContainer>
-      <StBackbround src={dashboardBackIMG} />
       <IcStrokeLogo />
       <span>
         <StText1>Qve is not connected</StText1>
@@ -148,7 +146,6 @@ const ISnotSelectBot = () => {
   const navigate = useNavigate();
   return (
     <StNotConnectContainer>
-      <StBackbround src={dashboardBackIMG} />
       <IcStrokeLogo />
       <span>
         <StText1>You are not investing in the</StText1>
