@@ -9,7 +9,6 @@ import {
   STCOMGreyBtn,
 } from '../../common/styles/commonStyleComs';
 import { IDashboard } from '../types/dashboardType';
-import { IcStrokeLogo } from '../../common/assets/0_index';
 import { useNavigate, useOutletContext } from 'react-router-dom';
 import ConnectWallet from '../../wallet/ConnectWallet';
 import axios from 'axios';
