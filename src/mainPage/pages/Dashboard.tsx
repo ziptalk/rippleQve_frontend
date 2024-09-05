@@ -338,11 +338,3 @@ const StText2 = styled.p`
 const StConnectWallet = styled(STCOMPinkBtn)`
   padding: 1.8rem 3.2rem;
 `;
-
-const StBackbround = styled.img`
-  width: 100%;
-  position: absolute;
-  top: 27rem;
-  right: 0;
-  z-index: -1;
-`;
