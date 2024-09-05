@@ -129,7 +129,6 @@ const ShowDashboardData = ({ data }: { data: IDashboard }) => {
 const ISnotConnectWallet = () => {
   return (
     <StNotConnectContainer>
-      <IcStrokeLogo />
       <span>
         <StText1>Qve is not connected</StText1>
         <StText1>to your wallet</StText1>
@@ -146,7 +145,6 @@ const ISnotSelectBot = () => {
   const navigate = useNavigate();
   return (
     <StNotConnectContainer>
-      <IcStrokeLogo />
       <span>
         <StText1>You are not investing in the</StText1>
         <StText1>trading bot. Go invest now!</StText1>
