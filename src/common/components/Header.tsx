@@ -97,7 +97,11 @@ export const HeaderNav = ({
         Process
       </StNavItem>
       <StNavItem
-        onClick={() => window.open('https://blockwavelabs-1.gitbook.io/qve')}
+        onClick={() =>
+          window.open(
+            'https://app.gitbook.com/o/M7lfDkKVS1HY46Zs7ek5/s/N0Fmfs2hp3jFaRte0OGb/qve/product-description-1'
+          )
+        }
       >
         Docs
       </StNavItem>
