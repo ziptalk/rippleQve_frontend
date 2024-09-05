@@ -1,11 +1,11 @@
-## MYTETHER
+## Ripple QVE
 
 ### Installation Steps
 
 ```bash
 # Clone the repository
-git clone https://github.com/ziptalk/mytether-frontend-typescript.git
-cd mytether-frontend-typescript
+git clone https://github.com/ziptalk/rippleQve_frontend.git
+cd rippleQve-frontend
 
 # Install dependencies
 yarn install
