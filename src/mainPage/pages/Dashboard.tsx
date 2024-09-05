@@ -329,7 +329,7 @@ const StText1 = styled.p`
 
 const StText2 = styled.p`
   ${({ theme }) => theme.fonts.body_3};
-  color: ${({ theme }) => theme.colors.sub_white};
+  color: ${({ theme }) => theme.colors.gray};
 `;
 
 const StConnectWallet = styled(STCOMPinkBtn)`
