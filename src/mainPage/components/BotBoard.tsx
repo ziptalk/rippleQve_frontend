@@ -87,7 +87,7 @@ const BotBoard = ({
               </div>
               <div>
                 <label>TVL</label>
-                <p>{formatPriceValue(propsData.tvl)} NTRN</p>
+                <p>{formatPriceValue(propsData.tvl)} XRP</p>
               </div>
             </StBotSummaryValue>
             <StBottomContainer>

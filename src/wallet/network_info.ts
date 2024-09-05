@@ -186,7 +186,7 @@ const nuetron_chainInfo = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.svg',
   },
   description:
-    'The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.',
+    'The most secure CosmWasm platform in Cosmos, Ripple lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.',
   peers: {
     seeds: [
       {

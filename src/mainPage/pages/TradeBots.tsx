@@ -3,7 +3,7 @@ import { VIEW } from '../components/SelectView';
 import SelectView from '../components/SelectView';
 import BotBoard from '../components/BotBoard';
 import { IcSearch, IcSort } from '../assets/0_index';
-import { DUMMY_BOT } from '../constants/mainPage_MOCK';
+// import { DUMMY_BOT } from '../constants/mainPage_MOCK';
 import { useOutletContext } from 'react-router-dom';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -96,7 +96,7 @@ const TradeBots = () => {
             showToast={showToast}
           />
         ))}
-        {!searchValue && (
+        {/* {!searchValue && (
           <BotBoard
             key={DUMMY_BOT.bot_id}
             data={DUMMY_BOT}
@@ -105,7 +105,7 @@ const TradeBots = () => {
             openUnConnectModal={openUnConnectModal}
             showToast={showToast}
           />
-        )}
+        )} */}
       </StBotsContainer>
     </StContainer>
   ) : (

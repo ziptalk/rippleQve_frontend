@@ -25,7 +25,7 @@ import { useUserAccount } from '../../wallet/hooks/useUserAccount';
 const base_url = import.meta.env.VITE_BASE_URL;
 
 const ShowDashboardData = ({ data }: { data: IDashboard }) => {
-  const TOKEN = 'NTRN';
+  const TOKEN = 'XRP';
   const { openBotModal, openRemoveModal } = useOutletContext<{
     openBotModal: (id: string) => void;
     openRemoveModal: (id: string) => void;
@@ -47,7 +47,7 @@ const ShowDashboardData = ({ data }: { data: IDashboard }) => {
           <label>Total Profit</label>
           <StTotalTokenValue>
             <StColor isPositive={data.total_profit >= 0}>
-              {formatUnits(data.total_profit)} NTRN
+              {formatUnits(data.total_profit)} XRP
             </StColor>
           </StTotalTokenValue>
           <StTotalDollarValue>
@@ -133,7 +133,7 @@ const ISnotConnectWallet = () => {
       <StBackbround src={dashboardBackIMG} />
       <IcStrokeLogo />
       <span>
-        <StText1>MYTETHER is not connected</StText1>
+        <StText1>Qve is not connected</StText1>
         <StText1>to your wallet</StText1>
         <div />
         <StText2>To see more information about this vault</StText2>
@@ -154,7 +154,7 @@ const ISnotSelectBot = () => {
         <StText1>You are not investing in the</StText1>
         <StText1>trading bot. Go invest now!</StText1>
         <div />
-        <StText2>You have not deposited to MYTETHER.</StText2>
+        <StText2>You have not deposited to Qve.</StText2>
         <StText2>
           If you want to earn profits, go ahead and make a deposit!
         </StText2>

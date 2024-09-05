@@ -145,10 +145,10 @@ const StWrapper = styled.div`
 `;
 
 const StLogo = styled(Logo)`
-  width: 15.9rem;
+  width: 10.8rem;
 
   @media (${({ theme }) => theme.breakpoints.mobile}) {
-    width: 14.4rem;
+    width: 9.1rem;
   }
 `;
 

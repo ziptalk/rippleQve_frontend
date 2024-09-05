@@ -98,7 +98,7 @@ const OnBoarding1 = ({ isMobile }: IOnboardingProps) => {
           <h1>Quant Vault Escrow Protocol</h1>
           <p>
             A hybrid DeFi platform combining arbitrage trading bots and
-            liquidity staking protocols in Neutron
+            liquidity staking protocols in Ripple
           </p>
           <St.Mobile.GlassWrapper>
             <St.Mobile.ValueContainer>
@@ -117,7 +117,7 @@ const OnBoarding1 = ({ isMobile }: IOnboardingProps) => {
             <Logo />
             <p>
               A hybrid DeFi platform combining arbitrage trading bots and
-              liquidity staking protocols in Neutron
+              liquidity staking protocols in Ripple
             </p>
           </St.Section1.QVEIntroduce>
           <St.Section1.TotalValue>
@@ -153,7 +153,7 @@ const OnBoarding1 = ({ isMobile }: IOnboardingProps) => {
 const OnBoarding2 = ({ isMobile }: IOnboardingProps) => {
   return (
     <St.Section2.Container>
-      <p>About Mytether</p>
+      <p>About Qve</p>
       <St.Title>Optimizing Yields in the Abcdef Ecosystem</St.Title>
       <St.Section2.Contents>
         {isMobile ? (
@@ -207,8 +207,7 @@ const OnBoarding3 = ({ isMobile }: IOnboardingProps) => {
           <St.PreTitle>Vaults Trading bots</St.PreTitle>
         ) : (
           <St.PreTitle>
-            Mytether offers various ‘vaults’, which are operated by the trading
-            bots
+            Qve offers various ‘vaults’, which are operated by the trading bots
           </St.PreTitle>
         )}
         <St.Title>Assets Into The Vault</St.Title>

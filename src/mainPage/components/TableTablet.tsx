@@ -17,7 +17,7 @@ const TableTablet = ({
   openBotModal: (id: string) => void;
   openRemoveModal: (id: string) => void;
 }) => {
-  const TOKEN = 'NTRN';
+  const TOKEN = 'XRP';
   return (
     <StWrapper>
       {data.map((item) => (

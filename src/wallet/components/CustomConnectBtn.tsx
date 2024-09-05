@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { ChainIcon } from '../assets/0_indes';
 export const CustomConnectBtn = ({
   handleWalletModal,
 }: {
@@ -71,7 +72,7 @@ export const CustomConnectBtn = ({
                         openChainModal();
                       }}
                     >
-                      {chain.hasIcon && (
+                      {chain.hasIcon ? (
                         <div
                           style={{
                             background: chain.iconBackground,
@@ -90,6 +91,8 @@ export const CustomConnectBtn = ({
                             />
                           )}
                         </div>
+                      ) : (
+                        <ChainIcon />
                       )}
                     </StIconBtn>
                     {account.displayName}
